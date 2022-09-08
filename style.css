@@ -1,73 +1,73 @@
 body {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-  
-  header{
-    width:100vw;
-    height:10vh;
-    background-color:darkblue;
-    display:grid;
-    place-items:center;
-  }
-  #search {
-    width:33vw;
-    height:3vh;
-    border-radius:10px;
-  }
-  .spinner {
-    display:none;
-    text-align:center;
-    font-size:1.6rem;
-  }
-  .movie-wrapper{
-    display:flex;
-    flex-wrap:wrap;
-  }
-  .card {
-    width:16vw;
-    height:35vh;
-    background-color:#eee;
-    margin:1.2rem;
-     display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    position:relative;
-  }
-  h4{
-    margin:5px;
-  }
-  img {
-    width:90%;
-    height:80%;
-  }
-  
-  footer {
-    width:100vw;
-    height:5vh;
-    background-color:darkblue;
-    position:fixed;
-    bottom:0;
-  }
-  .modal{
-    display:none;
-    width:30vw;
-    height:30vh;
-    background-color:red;
-    border:2px solid black;
-    color:black;
-    z-index:2000;
-    position:absolute;
-    left:100%;
-    top:10%;
-  }
-  /* .card:hover + .modal{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: darkblue;
+  display: grid;
+  place-items: center;
+}
+#search {
+  width: 33vw;
+  height: 3vh;
+  border-radius: 10px;
+}
+.spinner {
+  display: none;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.movie-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 16vw;
+  height: 35vh;
+  background-color: #eee;
+  margin: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+h4 {
+  margin: 5px;
+}
+img {
+  width: 90%;
+  height: 80%;
+}
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: darkblue;
+  position: fixed;
+  bottom: 0;
+}
+.modal {
+  display: none;
+  width: 30vw;
+  height: 30vh;
+  background-color: red;
+  border: 2px solid black;
+  color: black;
+  z-index: 2000;
+  position: absolute;
+  left: 100%;
+  top: 10%;
+}
+/* .card:hover + .modal{
     display:block;
     color:darkblue;
     background-color:yellow;
   } */
-  /* .movie-wrapper:hover + .modal {
+/* .movie-wrapper:hover + .modal {
     display:block;
   } */
